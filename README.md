@@ -1,15 +1,20 @@
 # NoCompilerNoLinker
-No ccompiler No Linker Automatic Executer
+No compiler No Linker, Automatic Executer
 
-This code automatically creates ELF Header ,which is executable file format in Linux, and creates assembly code byte format in text section. then it is a elf format file. 
+This code automatically creates ELF Header in the file ,which is executable file format in Linux, and creates assembly code byte format and put it into text section. then it is a elf format file. 
 
 First:  
 ```bash
 gcc -o Makelf makelf.c
 ```
-it creates **(tiny_hello)** file.
 
-then:  
+Then run the code
+```bash
+./Makelf
+```
+Now it creates **(tiny_hello)** file.
+
+then lets make our file executable:  
 ```bash
 chmod +x tiny_hello
 ```
