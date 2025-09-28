@@ -23,12 +23,3 @@ and finally:
 
 ta daaaa :D it printed **Hi** on the screen :D without any compilers any linkers any preprocessors :D
 
-
- it creates (tiny_hello) file.
-
- then chmod +x tiny_hello
-  now it is executable
-
-and ./tiny_hello
-
-ta daaaa :D it printed Hi on the screen :D without any compilers any linkers any preprocessors :D
